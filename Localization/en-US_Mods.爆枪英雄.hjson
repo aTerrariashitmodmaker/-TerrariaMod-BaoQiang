@@ -1,0 +1,762 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	金蝉: {
+		DisplayName: 金蝉
+		Tooltip: 发射穿墙且无限穿透的子弹
+	}
+
+	远视: {
+		DisplayName: 远视
+		Tooltip:
+			'''
+			5%暴击率
+			与目标相距200像素以上可以增伤
+			最大距离在1011.4514*1.5像素处取到（1920*1080对角线一半乘以1.5）
+			增伤最大值不超过80%，在困难模式，玩家静止不动时增加15%额外伤害
+			在背包中收藏以触发效果，或者直接使用以触发效果
+			最多装备7个技能
+			'''
+	}
+
+	近视: {
+		DisplayName: 近视
+		Tooltip:
+			'''
+			与目标相距400像素以内可以增伤
+			增伤最大不超过100%
+			在困难模式，玩家在地面上会增加30%近战伤害
+			在背包中收藏以触发效果，或者直接使用以触发效果
+			最多装备7个技能
+			'''
+	}
+
+	隐身: {
+		DisplayName: 隐身
+		Tooltip:
+			'''
+			在背包中收藏以开启效果
+			按下按键进入破晓一击状态12秒，此状态增加移速，防御，生命恢复，2.5倍伤害
+			造成伤害取消此状态
+			最多装备7个技能
+			'''
+	}
+
+	屠夫: {
+		DisplayName: 屠夫
+		Tooltip: ""
+	}
+
+	赤鼬: {
+		DisplayName: 赤鼬
+		Tooltip: '''鼬灭：发射导弹驱逐附近敌人		'''
+	}
+
+	迅龙: {
+		DisplayName: 迅龙
+		Tooltip: ""
+	}
+
+	七步毒药水: {
+		DisplayName: 七步毒药水
+		Tooltip:
+			'''
+			击中敌人施加七步毒，伤害与造成的伤害有关
+			且施加时目标的移速越快，伤害越高
+			只能拥有一种神级技能效果
+			'''
+	}
+
+	爆石药水: {
+		DisplayName: 爆石药水
+		Tooltip:
+			'''
+			击中敌人有8%概率发射石块，伤害为弹幕伤害
+			如果是近战，概率变为30%，伤害为武器伤害的2倍
+			只能拥有一种神级技能效果
+			'''
+	}
+
+	青蜂: {
+		DisplayName: 青蜂
+		Tooltip: 属性随游戏进程提升，击败任意机械三王获得最大属性，别问为甚么这么拉，因为以后可以进化
+	}
+
+	嗜爪: {
+		DisplayName: 嗜爪
+		Tooltip:
+			'''
+			在背包中收藏以开启效果
+			按下技能键增加60%伤害
+			困难模式增加100%
+			持续3秒
+			最多装备7个技能
+			'''
+	}
+
+	派生导弹: {
+		DisplayName: 派生导弹
+		Tooltip:
+			'''
+			在背包中收藏以开启效果
+			启用效果后击中敌人有概率生成追踪导弹，概率随游戏进程提升
+			最多装备7个技能
+			'''
+	}
+
+	狂暴: {
+		DisplayName: 狂暴
+		Tooltip:
+			'''
+			在背包中收藏以开启效果
+			按下技能键增加攻速，召唤师增加伤害
+			持续7秒
+			最多装备7个技能
+			'''
+	}
+
+	金刚钻: {
+		DisplayName: 金刚钻
+		Tooltip:
+			'''
+			在背包中收藏以开启效果
+			按下技能键增加少许伤害，使所有友方弹幕可以穿透物块
+			持续10秒
+			最多装备7个技能
+			'''
+	}
+
+	寒霜: {
+		DisplayName: 寒霜
+		Tooltip:
+			'''
+			发射寒霜焰和寒霜球
+			击中敌人使其定身1.5秒，每个单位内置10秒冷却
+			'''
+	}
+
+	炽焰: {
+		DisplayName: 炽焰
+		Tooltip:
+			'''
+			发射2到3道火焰和火花球
+			手持该武器时，任何弹幕击中敌人会添加一层炎爆状态，
+			到达40层时，下一次攻击造成最大生命值5%+300点伤害不超过2000，该伤害无视敌人防御
+			'''
+	}
+
+	神雀: {
+		DisplayName: 神雀
+		Tooltip:
+			'''
+			一把优秀的过渡武器
+			有概率发射派生导弹
+			快感：手持武器时造成伤害有概率提升100%攻速和45%召唤伤害持续2秒，可叠加时间
+			七步毒：击中敌人施加七步毒，伤害与造成的伤害有关
+			'''
+	}
+
+	电离折射: {
+		DisplayName: 电离折射
+		Tooltip:
+			'''
+			在背包中收藏以开启效果
+			按下技能键免疫伤害6秒，并对靠近的敌人造成伤害，伤害为防御力的两倍
+			被击中会减少2秒技能冷却
+			困难模式伤害提高，被击中减少3秒
+			最多装备7个技能
+			'''
+	}
+
+	闪耀重铸石: {
+		DisplayName: 闪耀重铸石
+		Tooltip:
+			'''
+			放在背包中，在铂金币吞噬者处重铸出闪耀词缀，并消耗此物品，15点技能急速
+			缩减后冷却=冷却时间* 100/（100+技能急速）
+			'''
+	}
+
+	绝世重铸石: {
+		DisplayName: 绝世重铸石
+		Tooltip:
+			'''
+			放在背包中，在铂金币吞噬者处重铸出绝世词缀，并消耗此物品，28点技能急速
+			缩减后冷却=冷却时间* 100/（100+技能急速）
+			'''
+	}
+
+	卡特巨炮: {
+		DisplayName: 卡特巨炮
+		Tooltip: ""
+	}
+
+	欺凌: {
+		DisplayName: 欺凌
+		Tooltip: 目标每减少2%生命值，对其伤害增加1%，最大25%，目标生命值低于35%时，对其造成50%额外伤害
+	}
+
+	闪电塔: {
+		DisplayName: 闪电塔
+		Tooltip:
+			'''
+			有敌人时发射球形闪电，无视敌人防御
+			伤害随游戏进程提升，击败月球领主后附加背包中伤害最高武器的伤害
+			对boss伤害降低80%，不包括boss身体部分
+			'''
+	}
+
+	镭射穿梭器: {
+		DisplayName: 镭射穿梭器
+		Tooltip:
+			'''
+			10%伤害
+			20%生命值
+			按下技能键传送至鼠标位置，伤害增加40%，弹幕穿墙，无敌，持续4秒，冷却60秒
+			'''
+	}
+
+	光锥: {
+		Tooltip: '''"刷又刷那么久，伤害又不高，刷关用卡特，这玩楞只能打竞技场"'''
+		DisplayName: 光锥
+	}
+
+	先锋盾: {
+		DisplayName: 先锋盾
+		Tooltip:
+			'''
+			收藏此物品以开启效果
+			增加少量防御和生命恢复
+			当前生命值大于75%或大于375时获得以下效果：
+				免疫击退,
+				35%伤害减免,
+				你受到的伤害不超过最大生命值的20%，上限为100,
+				但是伤害减少10%.
+			当前生命值小于35%时，每秒治疗少许血量，直到恢复到175点生命为止
+			'''
+	}
+
+	反击: {
+		DisplayName: 反击
+		Tooltip: 收藏此物品以开启效果，按下技能键增加8%吸血,持续4s，冷却60s
+	}
+
+	C形枪管: {
+		Tooltip:
+			'''
+			12%暴击率
+			友方弹幕偏转180度左右，但是造成12+12%的额外伤害
+			“不要在地下使用代达罗斯风暴弓”
+			'''
+		DisplayName: C形枪管
+	}
+
+	沙漠进袭者: {
+		Tooltip:
+			'''
+			召唤沙漠进袭者载具持续90s
+			冷却时间180s
+			耐久 1000+2倍当前生命值
+			主炮 50+背包中最高武器攻击力1.5倍 1.5发/s
+			机枪 15+背包中最高武器攻击力0.5倍 4发/s
+			碰撞伤害 30+背包中最高武器攻击力0.7倍 5次/s
+			'''
+		DisplayName: 沙漠进袭者
+	}
+
+	Mounts: {
+		TundraLeash: {
+			DisplayName: Tundra Leash
+			Tooltip: ""
+		}
+	}
+
+	TundraLeash: {
+		DisplayName: Tundra Leash
+		Tooltip: ""
+	}
+
+	暗影作训帽: {
+		DisplayName: 暗影作训帽
+		Tooltip: ""
+	}
+
+	白刘海头饰: {
+		DisplayName: 白刘海头饰
+		Tooltip:
+			'''
+			可以与任何装备形成套装奖励
+			“69级白刘海最强堆战神器”
+			'''
+	}
+
+	暗影作训衣: {
+		DisplayName: 暗影作训衣
+		Tooltip: ""
+	}
+
+	暗影作训裤: {
+		DisplayName: 暗影作训裤
+		Tooltip: 10%移速
+	}
+
+	丛林特种裤: {
+		DisplayName: 丛林特种裤
+		Tooltip: ""
+	}
+
+	丛林钢盔: {
+		DisplayName: 丛林钢盔
+		Tooltip: ""
+	}
+
+	丛林防弹衣: {
+		DisplayName: 丛林防弹衣
+		Tooltip:
+			'''
+			减少毒刺，陆龟，跳跳兽60%的伤害
+			"丛林防弹衣，专防丛林武装直升机，还有丛林核弹和丛林装甲车"
+			'''
+	}
+
+	幽灵副官帽: {
+		DisplayName: 幽灵副官帽
+		Tooltip: ""
+	}
+
+	幽灵副官裤: {
+		DisplayName: 幽灵副官裤
+		Tooltip: ""
+	}
+
+	幽灵弹甲: {
+		DisplayName: 幽灵弹甲
+		Tooltip: +1生命恢复
+	}
+
+	闪药: {
+		DisplayName: 闪药
+		Tooltip: 15%三倍暴击概率
+	}
+
+	银狐: {
+		DisplayName: 银狐
+		Tooltip: heroMOd的关闭刷怪让蝙蝠非正常死亡，导致无法召唤，重新进游戏即可
+	}
+
+	超凡赤鼬: {
+		DisplayName: 超凡赤鼬
+		Tooltip: ""
+	}
+
+	万弹归宗: {
+		DisplayName: 万弹归宗
+		Tooltip:
+			'''
+			按下技能键，你和附近的城镇npc会发射12个导弹追踪敌人，
+			伤害与背包中最高伤害武器有关
+			40%概率释放2次，20%概率释放3次
+			60秒冷却
+			'''
+	}
+
+	全域光波: {
+		DisplayName: 全域光波
+		Tooltip:
+			'''
+			按下技能键，消除附近敌方弹幕
+			秒杀小怪，对boss造成5%最大生命值伤害，重创某些稀有怪
+			冷却60秒
+			'''
+	}
+
+	沙鳄: {
+		DisplayName: 沙鳄
+		Tooltip:
+			'''
+			沙爆：命中目标有10%向前方发射爆炸火花
+			快感：手持武器时造成伤害有概率提升100%攻速和45%召唤伤害持续2秒，可叠加时间
+			弹幕无视目标20点护甲
+			'''
+	}
+
+	剑齿: {
+		DisplayName: 剑齿
+		Tooltip:
+			'''
+			穿人个数:3
+			影灭:玩家水平速度为零或者竖直速度为零时，射击以及击中目标会发射能量炮轰击敌人
+			'''
+	}
+
+	幽鬼头盔: {
+		DisplayName: 幽鬼头盔
+		Tooltip: ""
+	}
+
+	幽鬼战衣: {
+		DisplayName: 幽鬼战衣
+		Tooltip: 2召唤栏
+	}
+
+	幽鬼战裤: {
+		DisplayName: 幽鬼战裤
+		Tooltip: 2召唤栏
+	}
+
+	鬼爵头盔: {
+		DisplayName: 鬼爵头盔
+		Tooltip: ""
+	}
+
+	鬼爵战衣: {
+		DisplayName: 鬼爵战衣
+		Tooltip: 2召唤栏
+	}
+
+	鬼爵战裤: {
+		DisplayName: 鬼爵战裤
+		Tooltip: 2召唤栏
+	}
+
+	烁金: {
+		DisplayName: 烁金
+		Tooltip: ""
+	}
+
+	烟花弩: {
+		DisplayName: 烟花弩
+		Tooltip: ""
+	}
+
+	超模刀: {
+		DisplayName: 超模刀
+		Tooltip:
+			'''
+			本武器造成的伤害随游戏进程增加且基于目标当前生命值造成额外伤害
+			左键斩击发射剑气，斩击结束后极短时间内可以按右键进入识破状态
+			若识破状态被击中，可以抵挡攻击持续少许时间，并发射大量剑气
+			使用时可以消耗一定怒气造成大量额外伤害
+			若识破成功，返还消耗的怒气
+			'''
+	}
+
+	无双赤鼬: {
+		DisplayName: 无双赤鼬
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	爆胆: {
+		DisplayName: 爆胆
+		Description: ""
+	}
+
+	远视效果: {
+		DisplayName: 远视效果
+		Description: ""
+	}
+
+	近视效果: {
+		DisplayName: 近视效果
+		Description: ""
+	}
+
+	破晓一击: {
+		DisplayName: 破晓一击
+		Description: ""
+	}
+
+	RageDisplay: {
+		DisplayName: Rage Display
+		Description: ""
+	}
+
+	七步毒: {
+		DisplayName: 七步毒
+		Description: ""
+	}
+
+	七步毒敌: {
+		DisplayName: 七步毒敌
+		Description: ""
+	}
+
+	万弹归宗冷却: {
+		DisplayName: 万弹归宗冷却
+		Description: ""
+	}
+
+	爆石: {
+		DisplayName: 爆石
+		Description: ""
+	}
+
+	风雷: {
+		DisplayName: 风雷
+		Description: 增加50%移速
+	}
+
+	嗜爪冷却: {
+		DisplayName: 嗜爪冷却
+		Description: ""
+	}
+
+	嗜爪效果: {
+		DisplayName: 嗜爪效果
+		Description: ""
+	}
+
+	派生导弹效果: {
+		DisplayName: 派生导弹效果
+		Description: ""
+	}
+
+	狂暴冷却: {
+		DisplayName: 狂暴冷却
+		Description: ""
+	}
+
+	狂暴效果: {
+		DisplayName: 狂暴效果
+		Description: ""
+	}
+
+	金刚钻冷却: {
+		DisplayName: 金刚钻冷却
+		Description: ""
+	}
+
+	金刚钻效果: {
+		DisplayName: 金刚钻效果
+		Description: ""
+	}
+
+	隐身冷却: {
+		DisplayName: 隐身冷却
+		Description: ""
+	}
+
+	寒霜之力: {
+		DisplayName: 寒霜之力
+		Description: Mods.爆枪英雄.Buffs.寒霜之力.Description
+	}
+
+	快感: {
+		DisplayName: 快感
+		Description: ""
+	}
+
+	电离折射冷却: {
+		DisplayName: 电离折射冷却
+		Description: ""
+	}
+
+	欺凌效果: {
+		DisplayName: 欺凌效果
+		Description: ""
+	}
+
+	镭射穿梭器冷却: {
+		DisplayName: 镭射穿梭器冷却
+		Description: ""
+	}
+
+	镭射穿梭器效果: {
+		DisplayName: 镭射穿梭器效果
+		Description: ""
+	}
+
+	电离折射效果: {
+		Description: Mods.爆枪英雄.Buffs.电离折射效果.Description
+		DisplayName: 电离折射效果
+	}
+
+	欺盲: {
+		DisplayName: 欺盲
+		Description: ""
+	}
+
+	炫目: {
+		DisplayName: 炫目
+		Description: ""
+	}
+
+	致残: {
+		DisplayName: 致残
+		Description: ""
+	}
+
+	致盲: {
+		DisplayName: 致盲
+		Description: ""
+	}
+
+	闪避: {
+		DisplayName: 闪避
+		Description: ""
+	}
+
+	先锋盾效果: {
+		DisplayName: 先锋盾效果
+		Description: ""
+	}
+
+	反击冷却: {
+		DisplayName: 反击冷却
+		Description: ""
+	}
+
+	反击效果: {
+		DisplayName: 反击效果
+		Description: ""
+	}
+
+	沙漠进袭者霸符: {
+		Description: ""
+		DisplayName: 沙漠进袭者霸符
+	}
+
+	RimehoundBuff: {
+		DisplayName: Rimehound Buff
+		Description: ""
+	}
+
+	载具冷却: {
+		DisplayName: 载具冷却
+		Description: ""
+	}
+
+	快乐: {
+		DisplayName: 快乐
+		Description: Mods.爆枪英雄.Buffs.快乐.Description
+	}
+
+	全域光波冷却: {
+		DisplayName: 全域光波冷却
+		Description: Mods.爆枪英雄.Buffs.全域光波冷却.Description
+	}
+
+	分身: {
+		DisplayName: 分身
+		Description: 你有一个比你还强的分身，至少目前是这样
+	}
+
+	烟花弩冷却: {
+		DisplayName: 烟花弩冷却
+		Description: Mods.爆枪英雄.Buffs.烟花弩冷却.Description
+	}
+
+	可识破: {
+		DisplayName: 可识破
+		Description: Mods.爆枪英雄.Buffs.可识破.Description
+	}
+
+	识破中: {
+		DisplayName: 识破中
+		Description: Mods.爆枪英雄.Buffs.识破中.Description
+	}
+
+	识破成功: {
+		DisplayName: 识破成功
+		Description: Mods.爆枪英雄.Buffs.识破成功.Description
+	}
+
+	识破成功剑气: {
+		DisplayName: 识破成功剑气
+		Description: Mods.爆枪英雄.Buffs.识破成功剑气.Description
+	}
+}
+
+Projectiles: {
+	金蝉弹幕.DisplayName: 金蝉弹幕
+	万弹归宗弹幕.DisplayName: 万弹归宗弹幕
+	爆石弹幕.DisplayName: 爆石弹幕
+	赤鼬小弹幕.DisplayName: 赤鼬小弹幕
+	赤鼬弹幕.DisplayName: 赤鼬弹幕
+	超模刀弹幕.DisplayName: 超模刀弹幕
+	跟班.DisplayName: 跟班
+	迅龙弹幕.DisplayName: 迅龙弹幕
+	迅龙闪电.DisplayName: 迅龙闪电
+	小导弹.DisplayName: 小导弹
+	青蜂弹幕.DisplayName: 青蜂弹幕
+	飞镰弹幕.DisplayName: 飞镰弹幕
+	寒霜弹幕.DisplayName: 寒霜弹幕
+	炽焰弹幕.DisplayName: 炽焰弹幕
+	神雀弹幕.DisplayName: 神雀弹幕
+	电离折射弹幕.DisplayName: 电离折射弹幕
+	卡特巨炮炮弹.DisplayName: 卡特巨炮炮弹
+	溅射.DisplayName: 溅射
+	卡特手持弹幕.DisplayName: 卡特手持弹幕
+	闪电塔哨兵.DisplayName: 闪电塔哨兵
+	闪电球.DisplayName: 闪电球
+	闪电矢.DisplayName: 闪电矢
+	光锥激光.DisplayName: 光锥激光
+	炮弹.DisplayName: 炮弹
+	碰撞弹幕.DisplayName: 碰撞弹幕
+	蝙蝠接触伤害.DisplayName: 蝙蝠接触伤害
+	赤鼬导弹.DisplayName: 赤鼬导弹
+	赤鼬导弹发射器.DisplayName: 赤鼬导弹发射器
+	银狐弹幕.DisplayName: 银狐弹幕
+	AuralisBullet.DisplayName: Auralis Bullet
+	测试弹幕.DisplayName: 测试弹幕
+	全域光波弹幕.DisplayName: 全域光波弹幕
+	沙爆弹幕.DisplayName: 沙爆弹幕
+	沙鳄弹幕.DisplayName: 沙鳄弹幕
+	剑齿弹幕.DisplayName: 剑齿弹幕
+	影灭弹幕.DisplayName: 影灭弹幕
+	烁金弹幕.DisplayName: 烁金弹幕
+	烟花弩弹幕.DisplayName: 烟花弩弹幕
+	烟花弩子弹幕.DisplayName: 烟花弩子弹幕
+	烟花弩手持弹幕.DisplayName: 烟花弩手持弹幕
+	烟花弩连发弹幕.DisplayName: 烟花弩连发弹幕
+	烟花弩主动弹幕.DisplayName: 烟花弩主动弹幕
+	屠夫弹幕.DisplayName: 屠夫弹幕
+	超模刀本体弹幕.DisplayName: 超模刀本体弹幕
+	超模刀剑气.DisplayName: 超模刀剑气
+}
+
+Keybinds: {
+	谦卑.DisplayName: 谦卑
+	隐身.DisplayName: 隐身
+	万弹归宗.DisplayName: 万弹归宗
+	嗜爪.DisplayName: 嗜爪
+	狂暴.DisplayName: 狂暴
+	金刚钻.DisplayName: 金刚钻
+	电离折射.DisplayName: 电离折射
+	镭射穿梭器.DisplayName: 镭射穿梭器
+	爆枪英雄UI.DisplayName: 爆枪英雄 U I
+	爆枪英雄UI（未实现）.DisplayName: 爆枪英雄 U I（未实现）
+	反击.DisplayName: 反击
+	全域光波.DisplayName: 全域光波
+}
+
+Prefixes: {
+	绝世.DisplayName: 绝世
+	闪耀.DisplayName: 闪耀
+}
+
+UI.ExampleResource: Mods.爆枪英雄.UI.ExampleResource
+载具条: Mods.爆枪英雄.载具条
+
+NPCs: {
+	友好蝙蝠: {
+		DisplayName: 友好蝙蝠
+
+		TownNPCMood: {
+			Content: 我很满足。
+			NoHome: 我讨厌没有家。
+			FarFromHome: 我离家太远了。
+			LoveSpace: 我非常喜欢有这么大的空间。
+			DislikeCrowded: 我不喜欢这么拥挤。
+			HateCrowded: 我讨厌这么拥挤。
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	鬼爵分身.DisplayName: 鬼爵分身
+}
+
+怒气条: Mods.爆枪英雄.怒气条
